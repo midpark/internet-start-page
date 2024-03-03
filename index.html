@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Internet</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <link href='https://fonts.googleapis.com/css?family=Noto Sans' rel='stylesheet'>
+        <script src="js/config.js"></script>
+        <script src="js/config_icons.js"></script>
+        <script src="js/dom_onload.js"></script>
+        <script src="js/searchbar.js"></script>
+        <script src="js/weather.js"></script>
+    </head>
+    <body>
+
+        <div id="hoverbox-info" style="display:none">
+            <div id="hoverbox-info-closebtn" onclick="closeHoverInfoBox()">
+                <img src="img/symbols/close.png">
+            </div>
+            <div id="hoverbox-info-content">
+                <img class="banner" src="subpages/Danbooru/thumb.avif">
+                <span class="description">
+                    <b>Danbooru</b> (Donmai) is a taggable imageboard, with sophisticated features for keeping, organizing and finding pictures of high-quality anime-style art and doujinshi.<br>
+                    <b>Albert</b> is the creator of Danbooru while the current owner is <b>evazion</b>.
+                </span>
+                <span class="links">
+                    <a href="https://safebooru.donmai.us/">Safebooru</a>
+                </span>
+            </div>
+        </div>
+
+        <div id="autosuggestions-picker" style="display:none;">
+            <div class="autosuggestions-picker-item">
+                <img src="https://files.softicons.com/download/culture-icons/sharingan-icons-1.5-by-harenome-razanajato/png/256x256/kakashi.png">
+                <span class="autosuggestions-picker-item-title">bara</span>
+                <span class="autosuggestions-picker-item-caption">40436</span>
+            </div>
+        </div>
+
+        <div class="mainwindow-cont">
+            <div class="mainwindow">
+
+                <div class="mainwindow-weather">
+                    <img src="img/weather-icons/sun.png">
+                    <span class="mainwindow-weather-degrees">N/A</span>
+                    <span class="mainwindow-weather-location">N/A</span>
+                    <div class="mainwindow-weather-precipitation">
+                        <span>N/A</span>
+                        <img src="img/symbols/umbrella.png">
+                    </div>
+                </div>
+
+                <div class="mainwindow-top">
+                    <div class="mainwindow-top-logo">
+                        <img src="img/anim/spinning-globe-earth.webp">
+                        <span>Internet</span>
+                    </div>
+                    <div class="mainwindow-top-toolbar">
+
+                        <div class="mainwindow-top-toolbar-item"><a href="http://192.168.0.1/">
+                            <img src="img/symbols/posts.png">
+                            <span>Router control panel</span></a>
+                        </div>
+
+                        <div class="mainwindow-top-toolbar-item"><a href="https://www.deviceinfo.me/">
+                            <img src="img/symbols/wiki.png">
+                            <span>Net info</span></a>
+                        </div>
+
+                    </div>
+                    <div class="mainwindow-top-searchbar-cont">
+                        <input type="text" id="db-def-search" name="fname">
+                        <img id="db-def-search-button" src="img/symbols/search.png">
+                    </div>
+                    <div class="mainwindow-top-tag-rack-cont">
+                        <div class="mainwindow-top-tag-rack">
+                            <a href="https://www.google.com/"><div class="mainwindow-top-tag-rack-item">
+                                <img src="img/button-bk/google.avif">
+                                <span>Google</span>
+                            </div></a>
+                            <a href="https://www.bing.com/"><div class="mainwindow-top-tag-rack-item">
+                                <img src="img/button-bk/bing.avif">
+                                <span>Bing</span>
+                            </div></a>
+                            <a href="https://yahoo.com/"><div class="mainwindow-top-tag-rack-item">
+                                <img src="img/button-bk/yahoo.avif">
+                                <span>Yahoo!</span>
+                            </div></a>
+                            <a href="https://duckduckgo.com/"><div class="mainwindow-top-tag-rack-item">
+                                <img src="img/button-bk/duckduckgo.avif">
+                                <span>DuckDGo</span>
+                            </div></a>
+                            <a href="https://search.brave.com/"><div class="mainwindow-top-tag-rack-item">
+                                <img src="img/button-bk/brave.avif">
+                                <span>brave</span>
+                            </div></a>
+                        </div>
+                    </div>
+                    <span class="mainwindow-top-status">...</span>
+                </div>
+                <div class="mainwindow-separator">
+                </div>
+                <div class="mainwindow-bottom-cont">
+                    <div class="mainwindow-bottom">
+
+                        <div class="mainwindow-bottom-section">
+                            <h1>DanbooruV2</h1>
+                            <div class="mainwindow-bottom-section-item-cont">
+                                <div class="mainwindow-bottom-section-item">
+                                    <img src="https://danbooru.donmai.us/packs/static/public/images/danbooru-logo-128x128-ea111b6658173e847734.png">
+                                    <a href="https://danbooru.donmai.us/"><span>Danbooru</span></a>
+                                </div>
+                            </div>
+                            <div class="mainwindow-bottom-section-item-cont">
+                                <div class="mainwindow-bottom-section-item">
+                                    <img src="https://cdn.discordapp.com/attachments/1029536187666407464/1212745015546085386/image.png?ex=65f2f3cf&is=65e07ecf&hm=546d5d283d4e62a4e1857bc4fd39143c1d6d935042d8ca071a4f7311bff85d52&">
+                                    <a href="https://aibooru.online/"><span>AIBooru</span></a>
+                                </div>
+                            </div>
+                            <div class="mainwindow-bottom-section-item-cont">
+                                <div class="mainwindow-bottom-section-item">
+                                    <img src="https://cdn.discordapp.com/attachments/989202799004901459/1211970115156058142/image.png?ex=65f02220&is=65ddad20&hm=33d3b41dd2a22c1bb682adc48edb4dbe3338f244cdef5a7f7addc7f62b106252&">
+                                    <a href="https://gaybooru.app/"><span>Gaybooru</span></a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
