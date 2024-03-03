@@ -6,6 +6,7 @@ function getWeatherInfo() {
         "precipitation":0,
         "cityname":"Earth",
         "web_link":"",
+        "is_day":0,
     }
 }
 
@@ -41,7 +42,7 @@ function getWeatherInfo_OpenMeteo(latitude=44.804,longitude=20.4651) {
     */
     curr_temp="";
     precip="";
-    fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,precipitation,weather_code&hourly=temperature_2m&forecast_days=3`, {
+    fetch(`https://api.open-meteo.com/v1/forecast?latitude=${latitude}&longitude=${longitude}&current=temperature_2m,is_day,precipitation,weather_code&hourly=temperature_2m&forecast_days=3`, {
           method: 'GET',
           headers:
           {
@@ -94,11 +95,11 @@ function getWeatherInfo_OpenMeteo(latitude=44.804,longitude=20.4651) {
                 case 80:
                 case 81:
                 case 82:
-                    weather_data.weather_code="rainy"
+                    weather_data.weather_code="cloud_rainy"
                     break;
                 case 85:
                 case 86:
-                    weather_data.weather_code="rainy"
+                    weather_data.weather_code="cloud_rainy"
                     break;
                 case 95:
                     weather_data.weather_code="thunderstorm"
@@ -108,9 +109,16 @@ function getWeatherInfo_OpenMeteo(latitude=44.804,longitude=20.4651) {
                     weather_data.weather_code="hail"
                     break;
             }
+
+            if(!data.current.is_day)
+            {
+                weather_data.weather_code+="_night";
+            }
+
             console.log(data);
             weather_data.current_temperature=data.current.temperature_2m;
             weather_data.precipitation=data.current.precipitation;
+            weather_data.is_day=data.current.is_day;
 
             setWeatherDisplay(weather_data);
 
