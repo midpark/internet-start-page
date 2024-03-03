@@ -407,17 +407,48 @@ a .mainwindow-top-tag-rack-item span {
         border-radius:0;
         border:0;
     }
+
+    .mainwindow-weather {
+
+    }
+
+    .mainwindow-weather img {
+        width:130px;
+        height:75px;
+        float:right;
+    }
+
+    .mainwindow-weather-degrees {
+        font-size:25px;
+        left:75px;
+    }
+
+    .mainwindow-weather-location {
+        display:none;
+    }
+
+    .mainwindow-weather-precipitation {
+        left:75px;
+        top:30px;
+    }
+
+    .mainwindow-weather-precipitation img {
+        width:16px;
+        height:16px;
+    }
+
     .mainwindow-top {
-        height:190px;
+        height:280px;
+        margin-top:40px;
     }
 
     .mainwindow-top-logo span {
-        font-size:25px;
-        margin-left:10px;
+        font-size:35px;
+        margin-left:20px;
     }
     .mainwindow-top-logo img {
-        width:45px;
-        height:45px;
+        width:70px;
+        height:70px;
     }
 
     .mainwindow-top-toolbar {
