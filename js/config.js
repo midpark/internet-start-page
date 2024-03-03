@@ -185,7 +185,7 @@ main_collection=[
                         {
                             "sitename":"Danbooru",
                             "description":"A repository of high-quality anime-style art and doujinshi.",
-                            "href":"https://ynnysh.github.io/internet-start-page/hubs/danbooru",
+                            "href":"hubs/danbooru/index.html",
                             "iconpath":"https://danbooru.donmai.us/packs/static/public/images/danbooru-logo-128x128-ea111b6658173e847734.png"
                         },
                     ]

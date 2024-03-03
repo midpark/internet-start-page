@@ -43,18 +43,6 @@ function openHoverInfoBox(name,tx,ty) {
 
 }
 
-function findTagIcon(tag_name) {
-    elm=icon_collection.find((item) => item.tag == tag_name);
-    if(elm===undefined)
-    {
-        return "data:image/gif;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs=";
-    }
-    else
-    {
-        return elm.img;
-    }
-}
-
 function abbreviateNumber(value) {
     var newValue = value;
     if (value >= 1000) {
@@ -227,7 +215,6 @@ addEventListener("DOMContentLoaded", (event) => {
 
                             html_topaste="";
                             data.slice(0, 6).forEach(item => {
-                                imgurl=findTagIcon(item.name);
                                 html_topaste+=`
                                 <div class="autosuggestions-picker-item">
                                     <img src="${'img/tagicons/' + item.name + '.avif'}" onerror="this.style.opacity=0">
