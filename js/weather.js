@@ -9,7 +9,18 @@ function getWeatherInfo() {
     }
 }
 
-function getWeatherInfo_OpenMeteo(latitude=44.804,longitude=20.4651) {
+function getWeatherInfo_OpenMeteo(latitude,longitude) {
+    if(latitude==undefined)
+    {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                latitude = position.coords.latitude;
+                longitude = position.coords.longitude;
+            });
+        } else {
+            console.log("Geolocation is not supported by this browser.");
+        }
+    }
     weather_data={
         "weather_code":"null",
         "current_temperature":0,
