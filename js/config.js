@@ -29,7 +29,7 @@ main_collection=[
                         {
                             "sitename":"YouTube",
                             "description":"Booru",
-                            "href":"https://youtube.com/favicon.ico",
+                            "href":"https://youtube.com",
                             "iconpath":"https://youtube.com/favicon.ico"
                         },
                         {
