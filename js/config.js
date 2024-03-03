@@ -70,13 +70,13 @@ main_collection=[
                         {
                             "sitename":"WhatsApp",
                             "description":"A repository of high-quality anime-style art and doujinshi.",
-                            "href":"https://rule34.paheal.net/",
+                            "href":"https://web.whatsapp.com/",
                             "iconpath":"https://www.binarytattoo.com/wp-content/uploads/2016/04/Whatsapp-Icon-Logo.png"
                         },
                         {
                             "sitename":"Discord",
                             "description":"A repository of high-quality anime-style art and doujinshi.",
-                            "href":"https://booru.vineshroom.net/",
+                            "href":"https://discord.com/channels/@me",
                             "iconpath":"https://preview.redd.it/made-some-frutiger-aero-icons-for-my-desktop-planning-to-v0-ibacjcu92q7c1.png?width=1024&format=png&auto=webp&s=4f744c07c60e9ddf836a3773dacf141f80405059"
                         },
                         {
@@ -185,7 +185,7 @@ main_collection=[
                         {
                             "sitename":"Danbooru",
                             "description":"A repository of high-quality anime-style art and doujinshi.",
-                            "href":"https://ynnysh.github.io/booru-home/",
+                            "href":"https://ynnysh.github.io/internet-start-page/hubs/danbooru",
                             "iconpath":"https://danbooru.donmai.us/packs/static/public/images/danbooru-logo-128x128-ea111b6658173e847734.png"
                         },
                     ]
