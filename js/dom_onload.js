@@ -34,6 +34,8 @@ function openHoverInfoBox(name,tx,ty) {
 addEventListener("DOMContentLoaded", (event) => {
                 html_ctp="";
 
+                document.getElementById("db-def-search").focus();
+
                 main_collection.forEach(item_i=>{
                     html_ctp+='<div class="mainwindow-bottom-section">';
                     html_ctp+=`<h1>${item_i.name}</h1>`;
