@@ -138,6 +138,12 @@ main_collection=[
                     "name":"Weather",
                     "list":[
                         {
+                            "sitename":"Ventusky Maps",
+                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "href":"https://www.ventusky.com/",
+                            "iconpath":"https://www.ventusky.com/favicon.ico"
+                        },
+                        {
                             "sitename":"lightningmaps.org",
                             "description":"A repository of high-quality anime-style art and doujinshi.",
                             "href":"https://www.lightningmaps.org/",
