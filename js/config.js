@@ -51,6 +51,24 @@ main_collection=[
                     "name":"Microsoft",
                     "list":[
                         {
+                            "sitename":"Bing",
+                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "href":"https://www.bing.com/",
+                            "iconpath":"https://www.bing.com/favicon.ico"
+                        },
+                        {
+                            "sitename":"Office",
+                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "href":"https://www.office.com/",
+                            "iconpath":"https://res.cdn.office.net/officehub/images/content/images/favicon_m365-31d62b976c.ico"
+                        },
+                        {
+                            "sitename":"OneDrive",
+                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "href":"https://onedrive.live.com/",
+                            "iconpath":"https://onedrive.live.com/favicon.ico"
+                        },
+                        {
                             "sitename":"Outlook",
                             "description":"A repository of high-quality anime-style art and doujinshi.",
                             "href":"https://outlook.office365.com/mail/",
@@ -61,6 +79,12 @@ main_collection=[
                             "description":"A repository of high-quality anime-style art and doujinshi.",
                             "href":"https://teams.microsoft.com/",
                             "iconpath":"https://preview.redd.it/if-ms-teams-was-made-back-in-2010-feel-free-to-give-v0-p0t9kblgowca1.png?width=1080&crop=smart&auto=webp&s=753aa0346d3a2eec80fc705fb210c86582e780a4"
+                        },
+                        {
+                            "sitename":"Copilot",
+                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "href":"https://www.bing.com/chat",
+                            "iconpath":"https://www.bing.com/sa/simg/favicon-cplt.ico"
                         },
                     ]
                 },

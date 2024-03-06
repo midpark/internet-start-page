@@ -59,6 +59,8 @@ function getWeatherInfo_OpenMeteo(latitude=44.804,longitude=20.4651) {
                     weather_data.weather_code="clear"
                     break;
                 case 2:
+                    weather_data.weather_code="partly_cloudy_less"
+                    break;
                 case 3:
                     weather_data.weather_code="partly_cloudy"
                     break;
