@@ -137,6 +137,6 @@ function setWeatherDisplay(weather_data) {
     document.querySelector(".mainwindow-weather img").src=`img/weather-icons/${weather_data.weather_code}.png`;
     document.querySelector(".mainwindow-weather-degrees").innerHTML=`${Math.round(weather_data.current_temperature)}°C`;
     document.querySelector(".mainwindow-weather-location").innerHTML=`${weather_data.cityname}`;
-    document.querySelector(".mainwindow-weather-precipitation span").innerHTML=`${Math.round(weather_data.precipitation*100)}%`;
+    document.querySelector(".mainwindow-weather-precipitation span").innerHTML=`${Math.round(weather_data.precipitation)} mm`;
     document.querySelector(".mainwindow-weather").style.opacity=1;
 }
