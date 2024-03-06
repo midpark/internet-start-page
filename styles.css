@@ -69,6 +69,8 @@ a:hover, a span:hover {
     width:180px;
     height:100px;
     float:right;
+    opacity:0;
+    transition:0.3s opacity linear;
 }
 
 .mainwindow-weather-degrees {
@@ -98,6 +100,7 @@ a:hover, a span:hover {
     width:16px;
     height:16px;
     float:left;
+    opacity:1;
 }
 
 .mainwindow-weather-precipitation span {
@@ -120,6 +123,7 @@ a:hover, a span:hover {
     width:70px;
     height:70px;
     filter: drop-shadow(0px 0px 5px #3c8eb1);
+    transition:0.3s opacity linear;
 }
 
 .mainwindow-top-logo span {
@@ -286,8 +290,11 @@ a .mainwindow-top-tag-rack-item span {
 
 .mainwindow-bottom-section-item img {
     height:20px;
+    width:20px;
     float:left;
     margin:2px 7px 2px 2px;
+    opacity:0;
+    transition:0.3s opacity linear;
 }
 
 .mainwindow-bottom-section-item span {

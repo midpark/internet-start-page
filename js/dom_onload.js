@@ -2,6 +2,10 @@ function closeHoverInfoBox() {
     document.querySelector("#hoverbox-info").style.display="none";
 }
 
+function fadeInElem(elm) {
+    elm.style.opacity=1;
+}
+
 function openHoverInfoBox(name,tx,ty) {
 
     fetch(`subpages/${name}/main.html`, {
@@ -43,7 +47,7 @@ addEventListener("DOMContentLoaded", (event) => {
                         html_ctp+=
                         `<div class="mainwindow-bottom-section-item-cont" oncontextmenu="event.preventDefault(); openHoverInfoBox('${item_j.sitename}',event.clientX,event.clientY)">
                             <div class="mainwindow-bottom-section-item" title="${item_j.description}">
-                                <img src="${item_j.iconpath}">
+                                <img style="opacity:0;" onload="fadeInElem(this)" src="${item_j.iconpath}">
                                 <a href="${item_j.href}"><span>${item_j.sitename}</span></a>
                             </div>
                         </div>`;
