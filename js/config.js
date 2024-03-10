@@ -4,7 +4,7 @@ main_collection=[
                     "list":[
                         {
                             "sitename":"Google",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.google.com/",
                             "iconpath":"https://upload.wikimedia.org/wikipedia/commons/b/bc/Google_Search_app_icon_on_the_Google_Play_Store_2014-05-04_17-48.png"
                         },
@@ -52,37 +52,37 @@ main_collection=[
                     "list":[
                         {
                             "sitename":"Bing",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.bing.com/",
                             "iconpath":"https://www.bing.com/favicon.ico"
                         },
                         {
                             "sitename":"Office",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.office.com/",
                             "iconpath":"https://res.cdn.office.net/officehub/images/content/images/favicon_m365-31d62b976c.ico"
                         },
                         {
                             "sitename":"OneDrive",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://onedrive.live.com/",
                             "iconpath":"https://onedrive.live.com/favicon.ico"
                         },
                         {
                             "sitename":"Outlook",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://outlook.office365.com/mail/",
                             "iconpath":"https://iconape.com/wp-content/files/dj/352389/png/352389.png"
                         },
                         {
                             "sitename":"Teams",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://teams.microsoft.com/",
                             "iconpath":"https://preview.redd.it/if-ms-teams-was-made-back-in-2010-feel-free-to-give-v0-p0t9kblgowca1.png?width=1080&crop=smart&auto=webp&s=753aa0346d3a2eec80fc705fb210c86582e780a4"
                         },
                         {
                             "sitename":"Copilot",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.bing.com/chat",
                             "iconpath":"https://www.bing.com/sa/simg/favicon-cplt.ico"
                         },
@@ -93,37 +93,37 @@ main_collection=[
                     "list":[
                         {
                             "sitename":"WhatsApp",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://web.whatsapp.com/",
                             "iconpath":"https://www.binarytattoo.com/wp-content/uploads/2016/04/Whatsapp-Icon-Logo.png"
                         },
                         {
                             "sitename":"Discord",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://discord.com/channels/@me",
                             "iconpath":"https://preview.redd.it/made-some-frutiger-aero-icons-for-my-desktop-planning-to-v0-ibacjcu92q7c1.png?width=1024&format=png&auto=webp&s=4f744c07c60e9ddf836a3773dacf141f80405059"
                         },
                         {
                             "sitename":"Twitter",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://twitter.com/home",
                             "iconpath":"https://cdn.icon-icons.com/icons2/2890/PNG/512/apps_social_media_twitter_tweet_logo_bird_animal_social_network_icon_182711.png"
                         },
                         {
                             "sitename":"Reddit",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://reddit.com/",
                             "iconpath":"https://iconape.com/wp-content/files/rq/93022/svg/reddit.svg"
                         },
                         {
                             "sitename":"TikTok",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.tiktok.com",
                             "iconpath":"https://www.tiktok.com/favicon.ico"
                         },
                         {
                             "sitename":"Instagram",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.instagram.com/",
                             "iconpath":"https://freelogopng.com/images/all_img/1658589057old-instagram-logo.png"
                         },
@@ -134,25 +134,25 @@ main_collection=[
                     "list":[
                         {
                             "sitename":"Wikipedia",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.wikipedia.org/",
                             "iconpath":"https://www.wikipedia.org/favicon.ico"
                         },
                         {
                             "sitename":"Wikitionary",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.wiktionary.org/",
                             "iconpath":"https://www.wiktionary.org/favicon.ico"
                         },
                         {
                             "sitename":"Wikia",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.fandom.com/",
                             "iconpath":"https://www.fandom.com/favicon.ico"
                         },
                         {
                             "sitename":"Miraheze",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://miraheze.org/",
                             "iconpath":"https://miraheze.org/img/favicon.ico"
                         },
@@ -163,19 +163,19 @@ main_collection=[
                     "list":[
                         {
                             "sitename":"Ventusky Maps",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.ventusky.com/",
                             "iconpath":"https://www.ventusky.com/favicon.ico"
                         },
                         {
                             "sitename":"lightningmaps.org",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.lightningmaps.org/",
                             "iconpath":"https://www.lightningmaps.org/Images/favicon.ico"
                         },
                         {
                             "sitename":"IQAir",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.iqair.com/",
                             "iconpath":"https://www.iqair.com/favicon.ico"
                         },
@@ -186,9 +186,38 @@ main_collection=[
                     "list":[
                         {
                             "sitename":"jisho.org",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://jisho.org/",
                             "iconpath":"https://assets.jisho.org/assets/favicon-062c4a0240e1e6d72c38aa524742c2d558ee6234497d91dd6b75a182ea823d65.ico"
+                        },
+                    ]
+                },
+                {
+                    "name":"Mathematics",
+                    "list":[
+                        {
+                            "sitename":"Wolfram Alpha",
+                            "description":"",
+                            "href":"https://www.wolframalpha.com/",
+                            "iconpath":"https://www.wolframalpha.com/favicon.ico"
+                        },
+                        {
+                            "sitename":"Desmos Graph Calc",
+                            "description":"",
+                            "href":"https://www.desmos.com/calculator",
+                            "iconpath":"https://www.desmos.com/favicon.ico"
+                        },
+                        {
+                            "sitename":"DerivativeCalc",
+                            "description":"",
+                            "href":"https://www.derivative-calculator.net/",
+                            "iconpath":"https://www.derivative-calculator.net/favicon.ico"
+                        },
+                        {
+                            "sitename":"IntegralCalc",
+                            "description":"",
+                            "href":"https://www.integral-calculator.com/",
+                            "iconpath":"https://www.integral-calculator.com/favicon.ico"
                         },
                     ]
                 },
@@ -197,13 +226,13 @@ main_collection=[
                     "list":[
                         {
                             "sitename":"Steam",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://store.steampowered.com/",
                             "iconpath":"https://store.steampowered.com/favicon.ico"
                         },
                         {
                             "sitename":"GameBanana",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"https://www.gamebanana.com/",
                             "iconpath":"https://images.gamebanana.com/static/img/favicon/64x64.png"
                         },
@@ -214,7 +243,7 @@ main_collection=[
                     "list":[
                         {
                             "sitename":"Danbooru",
-                            "description":"A repository of high-quality anime-style art and doujinshi.",
+                            "description":"",
                             "href":"hubs/danbooru/index.html",
                             "iconpath":"https://danbooru.donmai.us/packs/static/public/images/danbooru-logo-128x128-ea111b6658173e847734.png"
                         },
