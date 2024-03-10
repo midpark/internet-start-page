@@ -110,6 +110,12 @@ main_collection=[
                             "iconpath":"https://cdn.icon-icons.com/icons2/2890/PNG/512/apps_social_media_twitter_tweet_logo_bird_animal_social_network_icon_182711.png"
                         },
                         {
+                            "sitename":"Bluesky",
+                            "description":"",
+                            "href":"https://bsky.app/",
+                            "iconpath":"https://bsky.app/static/favicon-32x32.png"
+                        },
+                        {
                             "sitename":"Reddit",
                             "description":"",
                             "href":"https://reddit.com/",
