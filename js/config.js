@@ -97,42 +97,42 @@ main_collection=[
                             "href":"https://web.whatsapp.com/",
                             "iconpath":"https://www.binarytattoo.com/wp-content/uploads/2016/04/Whatsapp-Icon-Logo.png"
                         },
-                        {
-                            "sitename":"Discord",
-                            "description":"",
-                            "href":"https://discord.com/channels/@me",
-                            "iconpath":"https://preview.redd.it/made-some-frutiger-aero-icons-for-my-desktop-planning-to-v0-ibacjcu92q7c1.png?width=1024&format=png&auto=webp&s=4f744c07c60e9ddf836a3773dacf141f80405059"
-                        },
-                        {
-                            "sitename":"Twitter",
-                            "description":"",
-                            "href":"https://twitter.com/home",
-                            "iconpath":"https://cdn.icon-icons.com/icons2/2890/PNG/512/apps_social_media_twitter_tweet_logo_bird_animal_social_network_icon_182711.png"
-                        },
-                        {
-                            "sitename":"Bluesky",
-                            "description":"",
-                            "href":"https://bsky.app/",
-                            "iconpath":"https://bsky.app/static/favicon-32x32.png"
-                        },
-                        {
-                            "sitename":"Reddit",
-                            "description":"",
-                            "href":"https://reddit.com/",
-                            "iconpath":"https://iconape.com/wp-content/files/rq/93022/svg/reddit.svg"
-                        },
-                        {
-                            "sitename":"TikTok",
-                            "description":"",
-                            "href":"https://www.tiktok.com",
-                            "iconpath":"https://www.tiktok.com/favicon.ico"
-                        },
-                        {
-                            "sitename":"Instagram",
-                            "description":"",
-                            "href":"https://www.instagram.com/",
-                            "iconpath":"https://freelogopng.com/images/all_img/1658589057old-instagram-logo.png"
-                        },
+                        // {
+                        //     "sitename":"Discord",
+                        //     "description":"",
+                        //     "href":"https://discord.com/channels/@me",
+                        //     "iconpath":"https://preview.redd.it/made-some-frutiger-aero-icons-for-my-desktop-planning-to-v0-ibacjcu92q7c1.png?width=1024&format=png&auto=webp&s=4f744c07c60e9ddf836a3773dacf141f80405059"
+                        // },
+                        // {
+                        //     "sitename":"Twitter",
+                        //     "description":"",
+                        //     "href":"https://twitter.com/home",
+                        //     "iconpath":"https://cdn.icon-icons.com/icons2/2890/PNG/512/apps_social_media_twitter_tweet_logo_bird_animal_social_network_icon_182711.png"
+                        // },
+                        // {
+                        //     "sitename":"Bluesky",
+                        //     "description":"",
+                        //     "href":"https://bsky.app/",
+                        //     "iconpath":"https://bsky.app/static/favicon-32x32.png"
+                        // },
+                        // {
+                        //     "sitename":"Reddit",
+                        //     "description":"",
+                        //     "href":"https://reddit.com/",
+                        //     "iconpath":"https://iconape.com/wp-content/files/rq/93022/svg/reddit.svg"
+                        // },
+                        // {
+                        //     "sitename":"TikTok",
+                        //     "description":"",
+                        //     "href":"https://www.tiktok.com",
+                        //     "iconpath":"https://www.tiktok.com/favicon.ico"
+                        // },
+                        // {
+                        //     "sitename":"Instagram",
+                        //     "description":"",
+                        //     "href":"https://www.instagram.com/",
+                        //     "iconpath":"https://freelogopng.com/images/all_img/1658589057old-instagram-logo.png"
+                        // },
                     ]
                 },
                 {
@@ -150,18 +150,18 @@ main_collection=[
                             "href":"https://www.wiktionary.org/",
                             "iconpath":"https://www.wiktionary.org/favicon.ico"
                         },
-                        {
-                            "sitename":"Wikia",
-                            "description":"",
-                            "href":"https://www.fandom.com/",
-                            "iconpath":"https://www.fandom.com/favicon.ico"
-                        },
-                        {
-                            "sitename":"Miraheze",
-                            "description":"",
-                            "href":"https://miraheze.org/",
-                            "iconpath":"https://miraheze.org/img/favicon.ico"
-                        },
+                        // {
+                        //     "sitename":"Wikia",
+                        //     "description":"",
+                        //     "href":"https://www.fandom.com/",
+                        //     "iconpath":"https://www.fandom.com/favicon.ico"
+                        // },
+                        // {
+                        //     "sitename":"Miraheze",
+                        //     "description":"",
+                        //     "href":"https://miraheze.org/",
+                        //     "iconpath":"https://miraheze.org/img/favicon.ico"
+                        // },
                     ]
                 },
                 {
@@ -227,33 +227,33 @@ main_collection=[
                         },
                     ]
                 },
-                {
-                    "name":"Games",
-                    "list":[
-                        {
-                            "sitename":"Steam",
-                            "description":"",
-                            "href":"https://store.steampowered.com/",
-                            "iconpath":"https://store.steampowered.com/favicon.ico"
-                        },
-                        {
-                            "sitename":"GameBanana",
-                            "description":"",
-                            "href":"https://www.gamebanana.com/",
-                            "iconpath":"https://images.gamebanana.com/static/img/favicon/64x64.png"
-                        },
-                    ]
-                },
-                {
-                    "name":"漫画",
-                    "list":[
-                        {
-                            "sitename":"Danbooru",
-                            "description":"",
-                            "href":"hubs/danbooru/index.html",
-                            "iconpath":"https://danbooru.donmai.us/packs/static/public/images/danbooru-logo-128x128-ea111b6658173e847734.png"
-                        },
-                    ]
-                },
+                // {
+                //     "name":"Games",
+                //     "list":[
+                //         {
+                //             "sitename":"Steam",
+                //             "description":"",
+                //             "href":"https://store.steampowered.com/",
+                //             "iconpath":"https://store.steampowered.com/favicon.ico"
+                //         },
+                //         {
+                //             "sitename":"GameBanana",
+                //             "description":"",
+                //             "href":"https://www.gamebanana.com/",
+                //             "iconpath":"https://images.gamebanana.com/static/img/favicon/64x64.png"
+                //         },
+                //     ]
+                // },
+                // {
+                //     "name":"漫画",
+                //     "list":[
+                //         {
+                //             "sitename":"Danbooru",
+                //             "description":"",
+                //             "href":"hubs/danbooru/index.html",
+                //             "iconpath":"https://danbooru.donmai.us/packs/static/public/images/danbooru-logo-128x128-ea111b6658173e847734.png"
+                //         },
+                //     ]
+                // },
 
                 ];
